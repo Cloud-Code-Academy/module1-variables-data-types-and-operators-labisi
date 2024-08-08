@@ -1,4 +1,18 @@
 /**
+ * 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 * The VariablesDataTypesOperatorsTest class is used to test the methods in the VariablesDataTypesOperators class.
 * It contains individual test methods for each method in the class, validating their functionality and expected outcomes.
 * The test methods utilize the Salesforce Assert class to assert and validate the results.
@@ -132,6 +146,14 @@ public class VariablesDataTypesOperatorsTest {
         Assert.areEqual(2.0, result, 'Incorrect averageOfThreeNumbers result');
     }
 
+
+
+
+
+
+
+
+    
     @IsTest
     static void testAdjustOrderOfOperations1() {
         Assert.areEqual(36, VariablesDataTypesOperators.adjustOrderOfOperations1(5, 7, 3), 'Incorrect result for adjustOrderOfOperations1 with 5, 7, 3 as arguments');
