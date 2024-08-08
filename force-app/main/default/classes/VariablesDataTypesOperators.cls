@@ -1,4 +1,5 @@
 /**
+ * 
  * This is the VariablesDataTypesOperators class, part of the Developer Kickstart Module 1 curriculum 
  * at Cloud Code Academy. This class serves as an introduction to the basic elements of Apex programming 
  * including variables, data types, and operators.
@@ -146,7 +147,7 @@ public with sharing class VariablesDataTypesOperators {
 	 * @return The complete sentence as a single String.
 	 */
 	public static String createSentence(String noun, String verb, String endingPunctuation) {
-		return 'The' + ' ' + noun + ' is' + verb + ' ' + endingPunctuation; // Replace null with the variable you used to store the result
+		return 'The' + ' ' + noun + ' is' + ' ' + verb + ' ' + endingPunctuation; // Replace null with the variable you used to store the result
 	}
 
     /**
